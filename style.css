@@ -1,0 +1,203 @@
+
+.header{
+    display: flex;
+    background: white;
+
+}
+#btn-kenyaflag{
+    border-radius: 10px;
+    width: 120px;
+    border-style: solid;
+    border-color: grey;
+    border: medium;
+    height: 40px;
+}
+
+#left-header{
+    width: 78%;
+}
+#right-header{
+    justify-content: space-between;
+    align-items: center;
+}
+ul{
+    list-style-type: none;
+}
+
+li{
+    display: inline;
+    text-align: justify;
+    
+}
+
+li a{
+    text-decoration: none;
+    margin-left: 60px; 
+    font-size: large;
+    
+       
+    
+}
+li img{
+    width: 150px;
+    height: 30px;
+}
+
+li:hover{
+    
+    background-color: black;
+    width: 80px;
+    height: 50px;
+    opacity: 0.8;
+}
+
+li a:hover{
+    color: white;
+    text-align: justify;
+}
+#right-header{
+    margin-top: 20px;
+}
+#right-header img{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+
+}
+
+#courseitems{
+    color: orangered;
+}
+h3{
+    display: inline;
+    
+}
+
+
+.section-content{
+    display: flex;
+    height: 520px;
+    background:lightgray;
+    
+}
+
+#section-one{
+    margin-left: 180px;
+    
+    
+}
+#section-one h1{
+    font-size: 55px;
+    opacity: 0.7;
+    letter-spacing: 1px;    
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*#section-one{
+    width: 60%;
+}*/
+#section-one p{
+    font-size: large;
+    letter-spacing: 1px;
+}
+#btn-applynow{
+    background-color: orangered;
+    border-radius: 20px;
+    width: 150px;
+    height: 70px;
+    border: medium;
+    border-style: solid;
+    border-color: orangered;
+}
+#btn-applynow a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+   
+}
+#btn-applynow:hover{
+    background-color:rgb(196, 142, 80);
+    
+}
+
+
+
+#btn-brochure {
+   
+    border-radius: 20px;
+    border: medium;
+    border-style: solid;
+    border-color: orangered;
+    width: 200px;
+    height: 70px;
+    background: lightgray;
+}
+#btn-brochure:hover{    
+    
+    border-color: lightblue;
+}
+#btn-brochure a {
+    text-decoration: none;
+    color: orangered;
+    font-size: 18px;
+
+}
+#more-info{
+    color: orangered;
+    margin-bottom: 20px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+#section-two img{
+    width: 300px;
+    height: 300px;
+    margin-top: 160px;
+    border-radius: 40px;
+    margin-left: 180px;
+    
+    
+}
+
+
+
+.footer-content{
+    background-color: orangered;
+    width: 100%;    
+    display: inline-flex;
+    justify-content: space-between;
+}
+#content-intake p{
+    color: white;
+    font-size: large;
+    margin-left: 400px;
+    
+}
+
+#content-apply{
+    
+    margin-right: 390px;
+}
+
+#footer-btn a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    
+    
+}
+#footer-btn{
+    width: 120px;
+    margin-top: 6px;
+    background-color: orangered;
+    border-style: solid;   
+    border-color: white;
+    border-width: medium;   
+    height: 40px;
+    border-radius: 30px;
+}
+
+
